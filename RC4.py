@@ -50,5 +50,5 @@ plaintext = numpy.array([ord(i) for i in plaintext])
 cipher = stream ^ plaintext
 
 print(cipher.astype(numpy.uint8).data.hex())
-
+#97643206514209e7d452a2b4291940d6762653d3b15a0ffc2900bae0
 
